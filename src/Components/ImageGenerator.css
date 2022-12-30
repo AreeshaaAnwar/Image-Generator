@@ -1,0 +1,122 @@
+.car{
+    background-color: #FFFFFF;
+    color: white;
+    padding: 4rem;
+    height: 40rem;
+  }
+  
+  .cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: grid;
+    grid-gap: 1rem;
+  } 
+  
+  /* Screen larger than 600px? 2 column */
+   @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(1, 1fr); 
+  
+    }
+  }
+  
+  /* Screen larger than 900px? 3 columns */
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  .topnav {
+    overflow: hidden;
+    background-color:#FFFFFF;
+    /* height: 40vh; */
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  
+  .topnav .icon {
+    display: none;
+  }
+  .login{
+    margin-top: -50px;
+    margin-right: 30px;
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+   
+  }
+  .body{
+    height: 70vh;
+    margin-left: 200px;
+    /* margin-bottom: -20px; */
+    /* width: 201.5vh; */
+    background-color: lightgray;
+  }
+  span{
+    margin-left: 55px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   .top{
+   display: flex;
+   justify-content: space-between;
+ 
+   }
+   .link{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    border: 1px solid gray;
+    border-radius: 50px;
+   }
+  
+   .e {
+    width: 100%;
+    
+    /* height: 100%; */
+    padding: 30px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+ .d{
+    padding-top: 30px;
+ }
+ .flex{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .r{
+
+background-color: white;
+
+ 
+}
+.ra{
+float: right;
+margin-top: 30px;
+
+}
+.image{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+/* 
+.SearchBar form{
+    display: flex;
+    align-items: center;
+}
+.SearchBar input{
+    margin-left: 10px;
+} */
+.SearchBar form{
+    margin-top: -70px;
+    margin-left: 80px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.SearchBar input{
+   height: 20px;
+}
